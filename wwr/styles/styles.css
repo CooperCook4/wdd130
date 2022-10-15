@@ -1,3 +1,12 @@
+@import url(https://fonts.google.com/specimen/Roboto+Slab);
+@import url(https://fonts.google.com/specimen/Alkalami);
+
+:root {
+    --heading-font: "Alkalami";
+    --paragraph-font: Roboto Slab, sans-serif, Helvetica;
+}
+
+
 #content {
     max-width: 1600px;
     margin:auto 0;
@@ -7,6 +16,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: black;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -15,6 +25,9 @@ nav a:hover {
 
 .home-title{
     color: black;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -40,7 +53,14 @@ main section {
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -52,43 +72,64 @@ nav a:hover {
 }
 
 
-.book, .join{
+.book, .join {
     background-color: #fcfbfb;
     text-decoration: none;
     color: blue;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, .join:hover{
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+.book:hover, .join:hover {
     color: blue;
     background-color: yellow;
 }
 
-.msg h2{
+.msg h2 {
     color: black;
 }
 
-.msg p{
+.msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
-#background{
+#background {
     background-color: yellow;
 
 }
 
-.msg{
+.msg {
     background-color: #C4A484;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
-footer{
+footer {
     background-color: #C4A484;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer a {
@@ -96,15 +137,24 @@ footer a {
     color: black;
 }
 
-footer a:hover{
+footer a:hover {
     color: yellow;
 }
 
-footer p{
+footer p {
     font-size: 1.2em;
 }
 
-footer p a:hover{
+footer p a:hover {
     font-size: 1.2em;
     text-decoration: underline;
 }
+
+#logo_link {
+    padding-top: 5px;
+}   
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
