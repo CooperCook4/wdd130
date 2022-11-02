@@ -213,7 +213,7 @@ footer p a:hover {
 
 .card-img:hover {
     opacity: .6;
-    transform: scaled(1.1);
+    transform: scale(1.1);
 }
 
 .camping-card{
