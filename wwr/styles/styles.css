@@ -62,6 +62,11 @@ h4{
     color: white;
 }
 
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .button-box {
     text-align: center;
 }
@@ -72,6 +77,8 @@ main section {
 
 #background {
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 body {
@@ -180,7 +187,6 @@ footer p a:hover {
 
 #logo_link {
     padding-top: 5px;
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }   
@@ -191,6 +197,10 @@ footer p a:hover {
 
 .card-img, .mountains {
     width: 100%;
+}
+
+.logo {
+    width: 150%
 }
 
 .mountains {
