@@ -6,8 +6,8 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --secondary-color: yellow ;
+  --accent1-color: black;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -64,7 +64,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-color);
+  color: black;
   padding: 1em;
 }
 .colors {
