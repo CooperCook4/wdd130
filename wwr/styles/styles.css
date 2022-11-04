@@ -43,6 +43,7 @@ h4{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    text-align: center;
 }
 
 #hero-box {
