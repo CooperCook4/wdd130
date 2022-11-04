@@ -22,10 +22,11 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 35px;
+    font-size: 25px;
 }
 
 nav a:hover {
-    color: blue
+    color: black;
 }
 
 .home-title{
@@ -99,7 +100,7 @@ header {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: #F0F8FE;
 }
 
 
@@ -234,6 +235,65 @@ footer p a:hover {
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
+}
+
+#background2{
+    color: #F5D5A1;
+}
+
+.rivers-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr, 1fr, 1fr;
+    padding: 35px;
+}
+
+.main-fork{
+    grid-column:1/3;
+    grid-row:1/3;
+    font-size: 20px;
+}
+
+.fork-img{
+    grid-column: 3/5;
+    width: 85%;
+}
+
+
+
+.desolation-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr, 1fr;
+    padding: 35px;
+}
+
+.desolation{
+    grid-column: 3/5;
+    font-size: 20px;
+}
+
+.desolation-img{
+    grid-column: 1/3;
+    width: 85%;
+}
+
+
+
+.grand-canyon-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 35px;
+}
+
+.grand-canyon{
+    font-size: 20px;
+    grid-column: 1/3;
+}
+
+.canyon-img{
+    grid-column: 3/5;
+    width: 85%;
 }
 
 @media screen and (max-width: 900px) {
