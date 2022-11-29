@@ -1,3 +1,5 @@
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -99,6 +101,7 @@ body{
     background-color: aqua;
     text-align: center;
     font-size: 18px;
+    width: 80%;
 }
 
 .installation{
