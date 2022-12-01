@@ -86,7 +86,8 @@ footer p a:hover {
 
 body{
     background-color: #D3D3D3;
-}
+} 
+
 
 .greeting{
     grid-column: 1/3;
@@ -125,4 +126,256 @@ body{
     grid-row: 4/7;
     padding: 15px;
     width: 90%;
+}
+
+.descriptions-grid{
+    display:grid;
+    grid-template-columns: (4,1fr);
+    grid-template-rows: (13,1fr);
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cpu{
+    grid-column:1/2;
+    text-align: center;
+    padding-top: 10px;
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+
+}
+
+.cpu-img{
+    grid-column: 3/4;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cpu, .cpu-img{
+    grid-row: 1
+}
+
+.gpu{
+    grid-column:3/4;
+    padding-top: 10px;
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.gpu-img{
+    grid-column: 1/2;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gpu, .gpu-img{
+    grid-row: 2/3;
+}
+
+.psu{
+    grid-column: 1/2;
+    padding-top: 10px;
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.psu-img{
+    grid-column: 3/4;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.psu, .psu-img{
+    grid-row: 3/4;
+}
+
+.ram{
+    grid-column: 3/5;
+    padding-top: 10px;
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.ram-img{
+    grid-column: 1/2;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ram, .ram-img{
+    grid-row: 4/5;
+}
+
+.storage{
+    grid-column: 1/2;
+    padding-top: 10px;
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.storage-img{
+    grid-column: 3/4;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.storage, .storage-img{
+    grid-row: 5/6;
+}
+
+.case{
+    grid-column: 3/4;
+    padding-top: 10px;
+    background-color: aqua;
+    font-size: 18px;
+    width: auto;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+.case-img{
+    grid-column: 1/2;
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case, .case-img{
+    grid-row: 6/7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow CSS */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+  }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
