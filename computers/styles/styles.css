@@ -140,7 +140,7 @@ h3{
 }
 
 .cpu{
-    grid-column:1/2;
+    grid-column:2/3;
     text-align: center;
     padding-top: 10px;
     background-color: aqua;
@@ -153,9 +153,9 @@ h3{
 }
 
 .cpu-img{
-    grid-column: 3/4;
-    width: 800px;
-    padding: 20px;
+    grid-column: 2/4;
+    width: 900px;
+    padding-left: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -176,9 +176,10 @@ h3{
 }
 
 .gpu-img{
-    grid-column: 1/2;
-    width: 800px;
-    padding: 20px;
+    grid-column: 2/4;
+    width: 950px;
+    padding-right: 300px;
+    padding-top:10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -188,7 +189,7 @@ h3{
 }
 
 .psu{
-    grid-column: 1/2;
+    grid-column: 2/3;
     padding-top: 10px;
     background-color: aqua;
     font-size: 18px;
@@ -199,11 +200,13 @@ h3{
 }
 
 .psu-img{
-    grid-column: 3/4;
-    width: 800px;
-    padding: 20px;
+    grid-column: 2/4;
+    width: 950px;
+    padding-left: 300px;
     margin-left: auto;
     margin-right: auto;
+    padding-top:10px;
+    
 }
 
 .psu, .psu-img{
@@ -211,9 +214,9 @@ h3{
 }
 
 .ram{
-    grid-column: 3/5;
+    grid-column: 3/4;
     padding-top: 10px;
-    background-color: aqua;
+    background-color: #00ffff;
     font-size: 18px;
     width: auto;
     height: 100px;
@@ -222,11 +225,12 @@ h3{
 }
 
 .ram-img{
-    grid-column: 1/2;
-    width: 800px;
-    padding: 20px;
+    grid-column: 2/4;
+    width: 950px;
+    padding-right: 300px;
     margin-left: auto;
     margin-right: auto;
+    padding-top:10px;
 }
 
 .ram, .ram-img{
@@ -234,9 +238,9 @@ h3{
 }
 
 .storage{
-    grid-column: 1/2;
+    grid-column: 1/3;
     padding-top: 10px;
-    background-color: aqua;
+    background-color: #00ffff;
     font-size: 18px;
     width: auto;
     height: 100px;
@@ -245,11 +249,12 @@ h3{
 }
 
 .storage-img{
-    grid-column: 3/4;
+    grid-column: 2/4;
     width: 800px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding-top:10px;
 }
 
 .storage, .storage-img{
@@ -259,7 +264,7 @@ h3{
 .case{
     grid-column: 3/4;
     padding-top: 10px;
-    background-color: aqua;
+    background-color: #00ffff;
     font-size: 18px;
     width: auto;
     height: 100px;
@@ -268,11 +273,12 @@ h3{
 }
 
 .case-img{
-    grid-column: 1/2;
+    grid-column: 1/4;
     width: 800px;
-    padding: 20px;
+    padding-right: 200px;
     margin-left: auto;
     margin-right: auto;
+    padding-top:10px;
 }
 
 .case, .case-img{
@@ -300,6 +306,7 @@ h3{
   max-width: 1000px;
   position: relative;
   margin: auto;
+  padding-top:10px;
 }
 
 .mySlides {
