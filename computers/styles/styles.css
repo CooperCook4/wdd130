@@ -145,6 +145,7 @@ h3{
     padding-top: 10px;
     background-color: aqua;
     font-size: 18px;
+    font-family: Roboto, sans-serif, Hevletica;
     width: auto;
     height: 100px;
     align-self: center;
@@ -169,6 +170,7 @@ h3{
     padding-top: 10px;
     background-color: aqua;
     font-size: 18px;
+    font-family: Roboto, sans-serif, Hevletica;
     width: auto;
     height: 100px;
     align-self: center;
@@ -193,6 +195,7 @@ h3{
     padding-top: 10px;
     background-color: aqua;
     font-size: 18px;
+    font-family: Roboto, sans-serif, Hevletica;
     width: auto;
     height: 100px;
     align-self: center;
@@ -218,6 +221,7 @@ h3{
     padding-top: 10px;
     background-color: #00ffff;
     font-size: 18px;
+    font-family: Roboto, sans-serif, Hevletica;
     width: auto;
     height: 100px;
     align-self: center;
@@ -242,6 +246,7 @@ h3{
     padding-top: 10px;
     background-color: #00ffff;
     font-size: 18px;
+    font-family: Roboto, sans-serif, Hevletica;
     width: auto;
     height: 100px;
     align-self: center;
@@ -266,6 +271,7 @@ h3{
     padding-top: 10px;
     background-color: #00ffff;
     font-size: 18px;
+    font-family: Roboto, sans-serif, Hevletica;
     width: auto;
     height: 100px;
     align-self: center;
@@ -285,16 +291,204 @@ h3{
     grid-row: 6/7;
 }
 
+.assembly-grid{
+    display:grid;
+    grid-template-columns: (5,1fr);
+    grid-template-rows: (12,1fr);
+}
 
+.step1{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
 
+.step1-img{
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-bottom: 100px;
+}
 
+.step2{
+    grid-column: 1/3;
+    text-align: center;
+    font-family: Roboto, sans-serif, Hevletica;
+    font-size: 20px;
+}
 
+.step2-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-bottom: 100px;
+}
 
+.step3{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
 
+.step3-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
 
+.step4{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
 
+.step4-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    padding-bottom: 100px;
+}
 
+.step5{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
 
+.step5-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.step6{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
+
+.step6-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.step7{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
+
+.step7-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.step8{
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
+
+.step8-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.step9{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
+
+.step9-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.step10{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
+
+.step10-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.step11 {
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
+
+.step11-img{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+.final{
+    grid-column: 1/3;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif, Hevletica;
+}
 
 
 
